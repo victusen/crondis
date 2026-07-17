@@ -2,7 +2,7 @@
   "name": "crondis",
   "type": "module",
   "version": "1.0.0",
-  "description": "Simple task scheduling built on get-cron and node-cron.",
+  "description": "Schedule recurring JavaScript tasks from ISO dates without writing cron expressions. Built on get-cron and node-cron.",
   "main": "./src/index.js",
   "exports": {
     ".": "./src/index.js"
@@ -35,7 +35,7 @@
   "author": "Victor Usen",
   "license": "MIT",
   "dependencies": {
-    "get-cron": "^1.1.0",
+    "get-cron": "^1.1.1",
     "node-cron": "^4.5.0"
   }
 }
