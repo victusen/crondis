@@ -1,0 +1,41 @@
+{
+  "name": "crondis",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Simple task scheduling built on get-cron and node-cron.",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victusen/crondis.git"
+  },
+  "homepage": "https://github.com/victusen/crondis",
+  "bugs": {
+    "url": "https://github.com/victusen/crondis/issues"
+  },
+  "keywords": [
+    "cronify",
+    "scheduler",
+    "get cron",
+    "cron jobs",
+    "schedule",
+    "automate",
+    "cron job",
+    "get-cron",
+    "node-cron",
+    "task scheduler",
+    "date",
+    "automation"
+  ],
+  "author": "Victor Usen",
+  "license": "MIT",
+  "dependencies": {
+    "get-cron": "^1.1.0",
+    "node-cron": "^4.5.0"
+  }
+}

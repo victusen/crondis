@@ -1,0 +1,57 @@
+**/node_modules/**
+**/bower_components/**
+**/jspm_packages/**
+**/.npm/**
+**/flow-typed/**
+**/vendor/**
+**/composer/**
+**/venv/**
+**/.virtualenv/**
+**/__pycache__/**
+**/.pytest_cache/**
+**/.eggs/**
+**/*.egg-info/**
+**/.git/**
+**/.svn/**
+**/.hg/**
+**/.vscode/**
+**/.idea/**
+**/.vs/**
+**/.project/**
+**/.settings/**
+**/.classpath/**
+**/dist/** 
+.git
+
+# Start afresh cleaner
+# Dependencies
+**/node_modules/
+**/bower_components/
+**/vendor/
+**/t3st.js
+
+# Python
+**/venv/
+**/.virtualenv/
+**/__pycache__/
+**/.pytest_cache/
+**/.eggs/
+**/*.egg-info/
+
+# Build outputs
+**/dist/
+**/build/
+
+# Editors & IDEs
+**/.vscode/
+**/.idea/
+**/.vs/
+**/.project/
+**/.settings/
+**/.classpath/
+
+# Misc
+**/.npm/
+**/flow-typed/
+**/.DS_Store
+**/*.log
