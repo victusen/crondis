@@ -1,7 +1,7 @@
 {
   "name": "crondis",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Schedule recurring JavaScript tasks from ISO dates without writing cron expressions. Built on get-cron and node-cron.",
   "main": "./src/index.js",
   "exports": {
